@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>This is the client</title>
+        <script type="text/javascript">
+            window.onload = () => {
+                     fetch(new Request('http://localhost:1337/secret'))
+                     .then((resp) => resp.text())
+                     .then((text) => {
+                         document.body.innerHTML = '<h1>LEET got secret! [' + text + ']</h1>';
+                     });
+                };
+        </script>
+    </head>
+    <body>
+        <p id="res">
+            Replace me.
+        </p>
+    </body>
+</html>
