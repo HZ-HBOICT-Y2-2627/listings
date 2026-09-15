@@ -17,7 +17,7 @@ leet.get('/', async (req, res) => {
     }
 })
 
-leet.get('/secret', cors(), (req, res) => {
+leet.get('/secret', (req, res) => {
 
     res.send('Uv3 84ck3Nd')
 })
