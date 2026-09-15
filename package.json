@@ -1,0 +1,24 @@
+{
+  "name": "listings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HZ-HBOICT-Y2-2627/listings.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/HZ-HBOICT-Y2-2627/listings/issues"
+  },
+  "homepage": "https://github.com/HZ-HBOICT-Y2-2627/listings#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security"
+  }
+}
